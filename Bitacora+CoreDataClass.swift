@@ -11,5 +11,5 @@ import CoreData
 
 @objc(Bitacora)
 public class Bitacora: NSManagedObject {
-
+    
 }

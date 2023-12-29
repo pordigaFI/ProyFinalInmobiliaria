@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22222" systemVersion="23B92" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier=""/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22222" systemVersion="23B92" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Bitacora" representedClassName="Bitacora" isAbstract="YES" syncable="YES">
+        <attribute name="asesor" optional="YES" attributeType="String"/>
+        <attribute name="cel" optional="YES" attributeType="String"/>
+        <attribute name="cliente" optional="YES" attributeType="String"/>
+        <attribute name="fecha" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="fin" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="inicio" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="mensaje" optional="YES" attributeType="String"/>
+        <attribute name="propiedad" optional="YES" attributeType="String"/>
+    </entity>
+</model>

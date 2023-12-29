@@ -9,21 +9,54 @@
 /* Begin PBXBuildFile section */
 		562443102B34C073001F5A87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5624430F2B34C073001F5A87 /* AppDelegate.swift */; };
 		562443122B34C073001F5A87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562443112B34C073001F5A87 /* SceneDelegate.swift */; };
-		562443142B34C073001F5A87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562443132B34C073001F5A87 /* ViewController.swift */; };
-		562443172B34C073001F5A87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562443152B34C073001F5A87 /* Main.storyboard */; };
+		562443142B34C073001F5A87 /* BitacoraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562443132B34C073001F5A87 /* BitacoraViewController.swift */; };
 		562443192B34C075001F5A87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562443182B34C075001F5A87 /* Assets.xcassets */; };
 		5624431C2B34C075001F5A87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5624431A2B34C075001F5A87 /* LaunchScreen.storyboard */; };
+		562443242B34E0DD001F5A87 /* ListadoPropiedadesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562443232B34E0DD001F5A87 /* ListadoPropiedadesViewController.swift */; };
+		562443282B34EB7E001F5A87 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562443272B34EB7E001F5A87 /* DetailViewController.swift */; };
+		5624432A2B34ED7A001F5A87 /* LocalizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562443292B34ED7A001F5A87 /* LocalizationViewController.swift */; };
+		562443302B351E64001F5A87 /* BitacoraViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5624432F2B351E64001F5A87 /* BitacoraViewCell.swift */; };
+		562443342B3520D1001F5A87 /* BitacoraDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562443332B3520D1001F5A87 /* BitacoraDataManager.swift */; };
+		562443362B352B60001F5A87 /* ListaBitacoraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562443352B352B60001F5A87 /* ListaBitacoraViewController.swift */; };
+		5624433A2B370E9C001F5A87 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 562443382B370E9C001F5A87 /* Model.xcdatamodeld */; };
+		5624433D2B3786AD001F5A87 /* Bitacora+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5624433B2B3786AD001F5A87 /* Bitacora+CoreDataClass.swift */; };
+		5624433E2B3786AD001F5A87 /* Bitacora+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5624433C2B3786AD001F5A87 /* Bitacora+CoreDataProperties.swift */; };
+		562443422B390EF4001F5A87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562443412B390EF4001F5A87 /* Main.storyboard */; };
+		5624CC272B3BC53900D893D3 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 5624CC262B3BC53900D893D3 /* SDWebImage */; };
+		5663A1E82B3DFE21003DE7D5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5663A1E72B3DFE21003DE7D5 /* Utils.swift */; };
+		5663A1EB2B3E127C003DE7D5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5663A1EA2B3E127C003DE7D5 /* CoreLocation.framework */; };
+		5663A1ED2B3E12B1003DE7D5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5663A1EC2B3E12B1003DE7D5 /* MapKit.framework */; };
+		56D9926B2B3A2EE500847311 /* PropiedadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D9926A2B3A2EE500847311 /* PropiedadManager.swift */; };
+		56D9926D2B3A2F9500847311 /* DatosPropiedad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D9926C2B3A2F9500847311 /* DatosPropiedad.swift */; };
+		56D992792B3A834E00847311 /* CeldaPropiedadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D992772B3A834E00847311 /* CeldaPropiedadTableViewCell.swift */; };
+		56D9927A2B3A834E00847311 /* CeldaPropiedadTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56D992782B3A834E00847311 /* CeldaPropiedadTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5624430C2B34C073001F5A87 /* InmobiliariaIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InmobiliariaIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5624430F2B34C073001F5A87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		562443112B34C073001F5A87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		562443132B34C073001F5A87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		562443162B34C073001F5A87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		562443132B34C073001F5A87 /* BitacoraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitacoraViewController.swift; sourceTree = "<group>"; };
 		562443182B34C075001F5A87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5624431B2B34C075001F5A87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5624431D2B34C075001F5A87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562443232B34E0DD001F5A87 /* ListadoPropiedadesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListadoPropiedadesViewController.swift; sourceTree = "<group>"; };
+		562443272B34EB7E001F5A87 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		562443292B34ED7A001F5A87 /* LocalizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationViewController.swift; sourceTree = "<group>"; };
+		5624432F2B351E64001F5A87 /* BitacoraViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitacoraViewCell.swift; sourceTree = "<group>"; };
+		562443332B3520D1001F5A87 /* BitacoraDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitacoraDataManager.swift; sourceTree = "<group>"; };
+		562443352B352B60001F5A87 /* ListaBitacoraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaBitacoraViewController.swift; sourceTree = "<group>"; };
+		562443392B370E9C001F5A87 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		5624433B2B3786AD001F5A87 /* Bitacora+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bitacora+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5624433C2B3786AD001F5A87 /* Bitacora+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bitacora+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		562443412B390EF4001F5A87 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5663A1E72B3DFE21003DE7D5 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		5663A1EA2B3E127C003DE7D5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5663A1EC2B3E12B1003DE7D5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		56D9926A2B3A2EE500847311 /* PropiedadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropiedadManager.swift; sourceTree = "<group>"; };
+		56D9926C2B3A2F9500847311 /* DatosPropiedad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosPropiedad.swift; sourceTree = "<group>"; };
+		56D992772B3A834E00847311 /* CeldaPropiedadTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaPropiedadTableViewCell.swift; sourceTree = "<group>"; };
+		56D992782B3A834E00847311 /* CeldaPropiedadTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CeldaPropiedadTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +64,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5663A1EB2B3E127C003DE7D5 /* CoreLocation.framework in Frameworks */,
+				5663A1ED2B3E12B1003DE7D5 /* MapKit.framework in Frameworks */,
+				5624CC272B3BC53900D893D3 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +76,11 @@
 		562443032B34C073001F5A87 = {
 			isa = PBXGroup;
 			children = (
+				5624433B2B3786AD001F5A87 /* Bitacora+CoreDataClass.swift */,
+				5624433C2B3786AD001F5A87 /* Bitacora+CoreDataProperties.swift */,
 				5624430E2B34C073001F5A87 /* InmobiliariaIOS */,
 				5624430D2B34C073001F5A87 /* Products */,
+				5663A1E92B3E127C003DE7D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +95,68 @@
 		5624430E2B34C073001F5A87 /* InmobiliariaIOS */ = {
 			isa = PBXGroup;
 			children = (
-				5624430F2B34C073001F5A87 /* AppDelegate.swift */,
+				562443312B351E73001F5A87 /* View */,
+				562443322B351E9F001F5A87 /* Model */,
+				562443372B352B8F001F5A87 /* Bitacora */,
+				56D992692B3A031E00847311 /* Propiedades */,
 				562443112B34C073001F5A87 /* SceneDelegate.swift */,
-				562443132B34C073001F5A87 /* ViewController.swift */,
-				562443152B34C073001F5A87 /* Main.storyboard */,
+				5624430F2B34C073001F5A87 /* AppDelegate.swift */,
+				56D992772B3A834E00847311 /* CeldaPropiedadTableViewCell.swift */,
+				56D992782B3A834E00847311 /* CeldaPropiedadTableViewCell.xib */,
+				562443412B390EF4001F5A87 /* Main.storyboard */,
 				562443182B34C075001F5A87 /* Assets.xcassets */,
 				5624431A2B34C075001F5A87 /* LaunchScreen.storyboard */,
 				5624431D2B34C075001F5A87 /* Info.plist */,
+				562443382B370E9C001F5A87 /* Model.xcdatamodeld */,
+				5663A1E72B3DFE21003DE7D5 /* Utils.swift */,
 			);
 			path = InmobiliariaIOS;
+			sourceTree = "<group>";
+		};
+		562443312B351E73001F5A87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5624432F2B351E64001F5A87 /* BitacoraViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		562443322B351E9F001F5A87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				562443332B3520D1001F5A87 /* BitacoraDataManager.swift */,
+				56D9926A2B3A2EE500847311 /* PropiedadManager.swift */,
+				56D9926C2B3A2F9500847311 /* DatosPropiedad.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		562443372B352B8F001F5A87 /* Bitacora */ = {
+			isa = PBXGroup;
+			children = (
+				562443352B352B60001F5A87 /* ListaBitacoraViewController.swift */,
+				562443132B34C073001F5A87 /* BitacoraViewController.swift */,
+			);
+			path = Bitacora;
+			sourceTree = "<group>";
+		};
+		5663A1E92B3E127C003DE7D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5663A1EC2B3E12B1003DE7D5 /* MapKit.framework */,
+				5663A1EA2B3E127C003DE7D5 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56D992692B3A031E00847311 /* Propiedades */ = {
+			isa = PBXGroup;
+			children = (
+				562443232B34E0DD001F5A87 /* ListadoPropiedadesViewController.swift */,
+				562443272B34EB7E001F5A87 /* DetailViewController.swift */,
+				562443292B34ED7A001F5A87 /* LocalizationViewController.swift */,
+			);
+			path = Propiedades;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +175,9 @@
 			dependencies = (
 			);
 			name = InmobiliariaIOS;
+			packageProductDependencies = (
+				5624CC262B3BC53900D893D3 /* SDWebImage */,
+			);
 			productName = InmobiliariaIOS;
 			productReference = 5624430C2B34C073001F5A87 /* InmobiliariaIOS.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +206,9 @@
 				Base,
 			);
 			mainGroup = 562443032B34C073001F5A87;
+			packageReferences = (
+				5624CC252B3BC53900D893D3 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 5624430D2B34C073001F5A87 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +223,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56D9927A2B3A834E00847311 /* CeldaPropiedadTableViewCell.xib in Resources */,
 				5624431C2B34C075001F5A87 /* LaunchScreen.storyboard in Resources */,
 				562443192B34C075001F5A87 /* Assets.xcassets in Resources */,
-				562443172B34C073001F5A87 /* Main.storyboard in Resources */,
+				562443422B390EF4001F5A87 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +237,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				562443142B34C073001F5A87 /* ViewController.swift in Sources */,
+				562443142B34C073001F5A87 /* BitacoraViewController.swift in Sources */,
+				5624433E2B3786AD001F5A87 /* Bitacora+CoreDataProperties.swift in Sources */,
+				562443242B34E0DD001F5A87 /* ListadoPropiedadesViewController.swift in Sources */,
+				56D9926B2B3A2EE500847311 /* PropiedadManager.swift in Sources */,
+				562443362B352B60001F5A87 /* ListaBitacoraViewController.swift in Sources */,
+				5624433D2B3786AD001F5A87 /* Bitacora+CoreDataClass.swift in Sources */,
+				562443302B351E64001F5A87 /* BitacoraViewCell.swift in Sources */,
+				5663A1E82B3DFE21003DE7D5 /* Utils.swift in Sources */,
+				562443282B34EB7E001F5A87 /* DetailViewController.swift in Sources */,
 				562443102B34C073001F5A87 /* AppDelegate.swift in Sources */,
+				562443342B3520D1001F5A87 /* BitacoraDataManager.swift in Sources */,
+				5624432A2B34ED7A001F5A87 /* LocalizationViewController.swift in Sources */,
+				56D992792B3A834E00847311 /* CeldaPropiedadTableViewCell.swift in Sources */,
 				562443122B34C073001F5A87 /* SceneDelegate.swift in Sources */,
+				56D9926D2B3A2F9500847311 /* DatosPropiedad.swift in Sources */,
+				5624433A2B370E9C001F5A87 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		562443152B34C073001F5A87 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				562443162B34C073001F5A87 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5624431A2B34C075001F5A87 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -298,8 +402,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,8 +430,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,6 +467,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5624CC252B3BC53900D893D3 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.18.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5624CC262B3BC53900D893D3 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5624CC252B3BC53900D893D3 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		562443382B370E9C001F5A87 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				562443392B370E9C001F5A87 /* Model.xcdatamodel */,
+			);
+			currentVersion = 562443392B370E9C001F5A87 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 562443042B34C073001F5A87 /* Project object */;
 }
